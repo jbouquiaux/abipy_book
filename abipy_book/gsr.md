@@ -146,7 +146,7 @@ Alternatively, one can use the optional argument `klabels` to define the mapping
 ```{code-cell}
 klabels = {
     (0.5, 0.0, 0.0): "L",
-    (0.0, 0.0, 0.0): "$\Gamma$",
+    (0.0, 0.0, 0.0): "\Gamma",
     (0.0, 0.5, 0.5): "X"
 }
 
@@ -207,7 +207,7 @@ print("[ebands_kpath] is_ibz:", ebands_kpath.kpoints.is_ibz, "is_kpath:", ebands
 ```
 
 ```{warning}
-The DOS requires a homogeneous $k$-sampling of the BZ. Abipy will raise an exception if you try
+The DOS requires a homogeneous k-sampling of the BZ. Abipy will raise an exception if you try
 to compute the DOS with a k-path.
 ```
 
@@ -280,7 +280,7 @@ with abilab.abiopen(abidata.ref_file("mgb2_kmesh181818_FATBANDS.nc")) as fbnc_km
     mgb2_eb3d = mgb2_ebands.get_ebands3d()
 ```
 
-There are three bands crossing the Fermi level of $MgB_2$ (band 2, 3, 4):
+There are three bands crossing the Fermi level of MgB_2 (band 2, 3, 4):
 
 ```{code-cell}
 mgb2_ebands.boxplot();

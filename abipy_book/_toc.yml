@@ -4,43 +4,43 @@
 format: jb-book
 root: intro
 parts:
-- caption: Basic AbiPy Objects
-  chapters:
-  - file: structure.md
-  - file: abinit_input.md
-  - file: input_factories.md
+# - caption: Basic AbiPy Objects
+#   chapters:
+#   - file: structure.md
+#   - file: abinit_input.md
+#   - file: input_factories.md
 - caption: Output Files
   chapters:
   - file: gsr.md
-  - file: hist.md
-  - file: efatbands.md
-  - file: ddb.md
-  - file: sigres.md
-  - file: mdf.md
-  - file: abiwan.md
-  - file: lobster.md
-- caption: AbiPy Workflows
-  chapters:
-  - file: flows.md
-- caption: AbiPy Lessons
-  chapters:
-  - file: base1/lesson_base1.md
-  - file: base3/lesson_base3.md
-    #- file: base4/lesson_base4.md # TODO finalize
-  - file: dfpt/lesson_dfpt.md
-  - file: elastic/lesson_elastic.md
-  - file: g0w0/lesson_g0w0.md
-  - file: bse/lesson_bse.md
-  - file: eph_isotc/lesson_eph_isotc.md
-  #- file: eph_zpr/lesson_eph_zpr.md # TODO finalize
-  - file: lumabi/intro/intro.md
-    sections:
-    - file: lumabi/theory/lesson_theory.md
-    - file: lumabi/lumiwork/lesson_lumiwork.md
-    - file: lumabi/post_process_1D/lesson_post_process_1D.md
-    - file: lumabi/lineshape/lesson_multi_phonons.md
-    - file: lumabi/ifc_emb/lesson_ifc_emb.md
+#   - file: hist.md
+#   - file: efatbands.md
+#   - file: ddb.md
+#   - file: sigres.md
+#   - file: mdf.md
+#   - file: abiwan.md
+#   - file: lobster.md
+# - caption: AbiPy Workflows
+#   chapters:
+#   - file: flows.md
+# - caption: AbiPy Lessons
+#   chapters:
+#   - file: base1/lesson_base1.md
+#   - file: base3/lesson_base3.md
+#     #- file: base4/lesson_base4.md # TODO finalize
+#   - file: dfpt/lesson_dfpt.md
+#   - file: elastic/lesson_elastic.md
+#   - file: g0w0/lesson_g0w0.md
+#   - file: bse/lesson_bse.md
+#   - file: eph_isotc/lesson_eph_isotc.md
+#   #- file: eph_zpr/lesson_eph_zpr.md # TODO finalize
+#   - file: lumabi/intro/intro.md
+#     sections:
+#     - file: lumabi/theory/lesson_theory.md
+#     - file: lumabi/lumiwork/lesson_lumiwork.md
+#     - file: lumabi/post_process_1D/lesson_post_process_1D.md
+#     - file: lumabi/lineshape/lesson_multi_phonons.md
+#     - file: lumabi/ifc_emb/lesson_ifc_emb.md
 
-- caption: Miscellaneous
-  chapters:
-  - file: links.md
+# - caption: Miscellaneous
+#   chapters:
+#   - file: links.md
