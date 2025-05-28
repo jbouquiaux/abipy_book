@@ -56,8 +56,10 @@ jobs:
       - name: Installing abinit from conda-forge and abipy with python=${{ matrix.config.python }}
         run: |
           pwd
-          conda create -n abipy python=${{ matrix.config.python }} --yes
-          conda activate abipy
+          pip install jupyter-book
+          pip install plotly
+          #conda create -n abipy python=${{ matrix.config.python }} --yes
+          #conda activate abipy
           #pip install invoke
           #invoke submodules
           #conda install "abinit>10" -c conda-forge --yes
@@ -66,8 +68,8 @@ jobs:
           #mkdir -p $HOME/.abinit/abipy/
           #cp abipy_book/data/gh_manager.yml $HOME/.abinit/abipy/manager.yml
           #cp abipy_book/data/gh_scheduler.yml $HOME/.abinit/abipy/scheduler.yml
-          source install.sh
-
+          #source install.sh
+          #
           # Install abipy from source
           #git clone --depth 1 --branch develop https://github.com/abinit/abipy.git
           #cd abipy && invoke submodules && ./pip_all.sh && cd -
