@@ -31,7 +31,7 @@ import plotly.graph_objects as go
 import plotly.io as pio
 
 # Create a simple plot
-pio.renderers.default = 'iframe_connected'
+pio.renderers.default = 'notebook_connected'
 fig = go.Figure(data=go.Scatter(x=[1, 2, 3], y=[4, 5, 6], mode='markers'))
 # Show the plot
 fig.show()
