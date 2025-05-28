@@ -31,7 +31,7 @@ import plotly.graph_objects as go
 import plotly.io as pio
 
 # Create a simple plot
-pio.renderers.default = 'notebook_connected'
+pio.renderers.default = 'iframe_connected'
 fig = go.Figure(data=go.Scatter(x=[1, 2, 3], y=[4, 5, 6], mode='markers'))
 # Show the plot
 fig.show()
@@ -43,3 +43,15 @@ $$
 x^2 + y^2 = z^2
 $$
 
+
+## From the Fermi's Golden rule to the luminescence lineshape
+
+Following Fermi's golden rule, the absolute luminescence intensity $I(\hbar\omega)$ (number of photons per unit time per unit energy)
+associated to one emitting center with two states e and g, is expressed as a function of the photon energy $\hbar\omega$ as
+
+$$
+    I(\hbar \omega)=\frac{n_D \omega^3}{3 \pi \hbar \epsilon_0 c^3} |\boldsymbol{\mu_{eg}}|^2 \delta\left(E_g-E_e-\hbar \omega\right),
+$$ (first_lum_intensity)
+
+where $n_D$ is the material refractive index,
+$\boldsymbol{\mu_{eg}}=\langle\Psi_{e}|\boldsymbol{\mu}|\Psi_{g}\rangle$ is the total dipole matrix element.
