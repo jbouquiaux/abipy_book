@@ -37,25 +37,14 @@ fig = go.Figure(data=go.Scatter(x=[1, 2, 3], y=[4, 5, 6], mode='markers'))
 fig
 ```
 
-```{code-cell}
-pio.renderers.default = 'notebook_connected'
-import plotly.graph_objects as go
-import plotly.io as pio
-
-# Create a simple plot
-fig = go.Figure(data=go.Scatter(x=[1, 2, 3], y=[4, 5, 6], mode='markers'))
-# Show the plot
-fig.show()
-```
 
 
-# test matplotlib
+# test math rendering
 
-```{code-cell}
-import matplotlib.pyplot as plt
-# Create a simple plot
-plt.plot([1, 2, 3], [4, 5, 6], marker='o')
-# Show the plot
-plt.show()
-```
+$$
+x^2 + y^2 = z^2
+$$
 
+$$
+L(\hbar\omega) = \frac{1}{\hbar\omega} \int_{-\infty}^{\infty} e^{i\omega t} dt
+$$
