@@ -43,22 +43,3 @@ $$
 x^2 + y^2 = z^2
 $$
 
-
-
-```{code-cell}
-import plotly.graph_objects as go
-import plotly.io as pio
-
-# Create a simple plot
-pio.renderers.default = ''
-fig = go.Figure(data=go.Scatter(x=[1, 2, 3], y=[4, 5, 6], mode='markers'))
-# Show the plot
-fig.show()
-```
-
-# test math rendering
-
-$$
-x^2 + y^2 = z^2
-$$
-
