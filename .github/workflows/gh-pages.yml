@@ -58,8 +58,8 @@ jobs:
           pwd
           pip install jupyter-book
           pip install plotly
-          #conda create -n abipy python=${{ matrix.config.python }} --yes
-          #conda activate abipy
+          conda create -n abipy python=${{ matrix.config.python }} --yes
+          conda activate abipy
           #pip install invoke
           #invoke submodules
           #conda install "abinit>10" -c conda-forge --yes
