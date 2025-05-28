@@ -9,9 +9,9 @@ parts:
 #   - file: structure.md
 #   - file: abinit_input.md
 #   - file: input_factories.md
-#- caption: Output Files
-#  chapters:
-#  - file: test_plotly.md
+- caption: Output Files
+  chapters:
+  - file: test_plotly.md
 #  - file: gsr.md
 #   - file: hist.md
 #   - file: efatbands.md
